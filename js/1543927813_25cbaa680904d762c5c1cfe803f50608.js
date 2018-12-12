@@ -19650,7 +19650,7 @@ $(function() {
         $('div#faqContactFrom div#faq-contact-form').slideToggle('fast');
     });
 });
-/*$.plugin('checkOnAddCart', {
+$.plugin('checkOnAddCart', {
     init: function() {
         $.subscribe('plugin/swAddArticle/onAddArticle', function() {
             if (typeof ipToSubshopLayer === 'function') {
@@ -19673,7 +19673,7 @@ $(function() {
     destroy: function() {
         this._destroy();
     }
-});*/
+});
 $('.buybox--form').checkOnAddCart();
 /*!
  * jQuery Cookie Plugin v1.4.1

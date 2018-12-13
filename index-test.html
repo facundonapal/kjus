@@ -509,8 +509,8 @@
 
 
 <div class="header-wraper" id="header-wraper-home" onmouseover="return showBackground();">
-<!--INFOLINE-->
 
+<!--INFOLINE-->
 <div class="page-wrap--infoline">
 <div class="infoline--container">
 <div class="infoline--line">
@@ -522,7 +522,7 @@ Free standard shipping on all orders: use code FREE in checkout
 
 
 <!--HEADER-->
-<header class="header-main" style="">
+<header class="header-main" id="header-main">
 <div class="top-bar">
 <div class="container block-group">
 </div>
@@ -577,7 +577,7 @@ Free standard shipping on all orders: use code FREE in checkout
     <li class="navigation--entry entry--notepad" role="menuitem">
         <a href="https://www.kjus.com/es/en/note" title="Wish list" class="btn is--icon-left">
             <i class="icon--heart"></i>
-            <span class="badge notes--quantity" data-ajax-url="/es/en/widgets/note/noteCount">0</span>
+            <span class="badge notes--quantity" data-ajax-url="/es/en/widgets/note/noteCount"></span>
         </a>
     </li>
     <li class="navigation--entry entry--store-locator" role="menuitem">
@@ -609,7 +609,7 @@ Free standard shipping on all orders: use code FREE in checkout
                                     Shopping cart
                             </span>
 
-            <span class="badge is--minimal cart--quantity is--hidden">0</span>
+            <span class="badge is--minimal cart--quantity is--hidden"></span>
 
             <i class="icon--basket"></i>
         </a>
@@ -626,8 +626,7 @@ Free standard shipping on all orders: use code FREE in checkout
 
 
 <!--NAVBAR-->
-
-<nav class="navigation-main" style="">
+<nav class="navigation-main" id="sliderfunc">
 <div class="container js--menu-scroller" data-menu-scroller="true" data-listselector=".navigation--list.container" data-viewportselector=".navigation--list-wrapper">
 <div class="navigation--list-wrapper">
 <ul class="navigation--list container js--menu-scroller--list" role="menubar" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" style="bottom: 0px; margin-top: 0px;">
@@ -1056,7 +1055,7 @@ Neti.globalStoreCountriesIsoString = ['DE','AU','BE','DK','FI','FR','GB','IE','I
                                         
             
     <div class="cover" data-cover="true" data-srcset="https://www.kjus.com/media/image/b2/86/89/Hydrobot-home3.jpg base, https://www.kjus.com/media/image/46/39/49/Hydrobot-home3_1280x1024.jpg 1280, https://www.kjus.com/media/image/66/55/89/Hydrobot-home3_1280x1024@2x.jpg 1280 2x" data-position="center center">
-    <div class="cover--canvas" style="background-image: url(&quot;https://www.kjus.com/media/image/46/39/49/Hydrobot-home3_1280x1024.jpg&quot;); background-position: center center; height: 50px; position: relative; bottom: 195px;"></div></div>
+    <div class="cover--canvas" style="background-image: url(&quot;https://www.kjus.com/media/image/46/39/49/Hydrobot-home3_1280x1024.jpg&quot;); background-position: center center; height: 50px;"></div></div> <!--position: relative; bottom: 195px;-->
             </div>
 
         
@@ -1266,7 +1265,7 @@ Fully Knitted Skiwear</p>
                 
              
     <div class="cover" data-cover="true" data-srcset="https://www.kjus.com/media/image/b2/86/89/Hydrobot-home3.jpg base, https://www.kjus.com/media/image/46/39/49/Hydrobot-home3_1280x1024.jpg 1280, https://www.kjus.com/media/image/66/55/89/Hydrobot-home3_1280x1024@2x.jpg 1280 2x" data-position="center center">
-    <div class="cover--canvas" style="background-image: url(&quot;https://www.kjus.com/media/image/b2/86/89/Hydrobot-home3.jpg&quot;); background-position: center center; height: 951.5px; position: relative; bottom: 195px" onmouseover="return showIcon();"></div></div>
+    <div class="cover--canvas" style="background-image: url(&quot;https://www.kjus.com/media/image/b2/86/89/Hydrobot-home3.jpg&quot;); background-position: center center; height: 951.5px;" onmouseover="return showIcon();"></div></div><!--position: relative; bottom: 195px-->
             </div>
 
         
@@ -1350,12 +1349,15 @@ Wearable Technology Ski Jacket </p>
 </div>
                                 <div class="emotion--element col-1 row-1 start-col-1 start-row-1 col-xs-1 start-col-xs-1 row-xs-1 start-row-xs-1 is--hidden-xs col-s-1 start-col-s-1 row-s-1 start-row-s-1 is--hidden-s col-m-12 start-col-m-1 row-m-3 start-row-m-4 col-l-12 start-col-l-1 row-l-3 start-row-l-5 col-xl-12 start-col-xl-1 row-xl-3 start-row-xl-5" style="padding-left: 0rem; padding-bottom: 0rem; height: 21.4286%; top: 28.5714%;">
     <div class="emotion--product-slider panel has--border">
+        <div class="panel--title product-slider--title" onmouseover="return invisible();">
+                    &nbsp;
+                </div>
  <div class="product-slider product-slider--content" data-itemminwidth="400" data-autoslidespeed="5" data-animationspeed="500" data-ajaxctrlurl="/es/en/widgets/emotion/emotionArticleSlider/sort/selected_variant" data-ajaxmaxshow="25" data-product-slider="true"><a class="product-slider--arrow arrow--next is--horizontal tracked" data-tracking="{&quot;eventCategory&quot;: &quot;outbound link&quot;, &quot;eventAction&quot;: &quot;click&quot;, &quot;eventLabel&quot;: &quot;undefined&quot;}"></a><a class="product-slider--arrow arrow--prev is--horizontal tracked" data-tracking="{&quot;eventCategory&quot;: &quot;outbound link&quot;, &quot;eventAction&quot;: &quot;click&quot;, &quot;eventLabel&quot;: &quot;undefined&quot;}" style="display: none;"></a>
 
         
     
                     
-            <div class="product-slider--container is--horizontal">
+            <div class="product-slider--container is--horizontal" onmouseover="return invisible();">
                                     
 
 
@@ -5848,7 +5850,7 @@ Fully Knitted Skiwear</p>
                                         
             
     <div class="cover" data-cover="true" data-srcset="https://www.kjus.com/media/image/b2/86/89/Hydrobot-home3.jpg base, https://www.kjus.com/media/image/46/39/49/Hydrobot-home3_1280x1024.jpg 1280, https://www.kjus.com/media/image/66/55/89/Hydrobot-home3_1280x1024@2x.jpg 1280 2x" data-position="center center">
-    <div class="cover--canvas" style="background-image: url(&quot;https://www.kjus.com/media/image/b2/86/89/Hydrobot-home3.jpg&quot;); background-position: center center; height: 951.5px;"></div></div>
+    <div class="cover--canvas" style="background-image: url(&quot;https://www.kjus.com/media/image/b2/86/89/Hydrobot-home3.jpg&quot;); background-position: center center; height: 951.5px;" onmouseover="return showIcon();"></div></div>
             </div>
 
         

@@ -8,6 +8,15 @@ function showIcon() {
 
 }
 
+
+function invisible() {
+	var slider = document.getElementById('sliderfunc');
+	slider.style.display = ('none');
+
+	var header = document.getElementById('header-main');
+	header.style.display = ('none');
+}
+
 function showBackground () {
 
 	/*var iconbar = document.getElementById('iconbar');

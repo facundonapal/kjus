@@ -1,8 +1,10 @@
 
-
+/*=========================
+      HOMEPAGE STYLES
+==========================*/
 
 #kjus-carousel-home {
-	padding-bottom: 150px;
+	padding-bottom: 30px;
 	margin: 0 auto;
 	max-width: 1282px;
 }
@@ -15,6 +17,7 @@
 	margin-bottom: 30px;
 	padding-bottom: 38px;
 	text-align: center;
+	transition: color 2s;
 }
 
 #header-wraper-home {
@@ -25,5 +28,111 @@
     top: 0;
     transition: 0.4s;
 }
+
+#widget-title a {
+	text-decoration: none !important;
+	transition: color 2s;
+}
+
+#widget-title a:hover {
+	text-decoration: none  !important;
+	color: #ff8350
+}
+
+/*=========================
+      LOOKBOOK STYLES
+==========================*/
+
+.wrapper-widgets {
+    margin: 44px auto;
+}
+
+.tabss {
+    text-align: center !important;
+}
+
+.tabss input[type=radio] {
+    display:none;
+}
+
+.tabss label {
+    display: inline-grid;
+    width: 23%;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    margin-bottom: 57px;
+    transition: border-bottom 1s ease;
+    border-bottom: 1px transparent solid;
+}
+
+
+.tabss [id^="tab"]:checked + label {
+    border-bottom: 1px solid #05301a;
+    border-bottom-width: thin; 
+}
+
+.tab-style {
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 300;
+    display: inline-block;
+    padding: 12px 27px;
+    color: #323237;
+    text-transform: uppercase;
+    font-family: "aktiv-grotesk",sans-serif;
+}
+
+
+ #tab1:checked ~ #tab-content1,
+ #tab2:checked ~ #tab-content2,
+ #tab3:checked ~ #tab-content3,
+ #tab4:checked ~ #tab-content4 {
+    display: block;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+}
+
+.ps-load-more-button {
+    width: 152px !important;
+    height: 60px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    font-size: 17px !important;
+    font-weight: 300 !important;
+    background-color: rgba(50,50,55,0.7) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: .125rem .625rem .125rem .625rem !important;
+    line-height: 2rem !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    margin-top: 18px !important;
+    transition: all .3s ease-out !important;
+}
+
+.ps-load-more-button:hover {
+    background: #000 !important;
+}
+
+/*=========================
+      PRODUCT STYLES
+==========================*/
+
+#kjus-carousel-product {
+	max-width: 1480px !important;
+	margin: 0 auto;
+}
+
+#pdptitle {
+	max-width: 1480px;
+	text-align: left;
+	margin: 0 auto 18px auto;
+}
+
 
 

@@ -5936,7 +5936,7 @@ label.has--error {
 @font-face {
     font-family: 'shopware';
     src: url('../../themes/Frontend/Responsive/frontend/_public/src/fonts//shopware.eot?201806041019');
-    src: url('../../themes/Frontend/Responsive/frontend/_public/src/fonts//shopware.eot?#201806041019') format('embedded-opentype'),url('../assets/fonts/shopware.woff') format('woff'),url('../../themes/Frontend/Responsive/frontend/_public/src/fonts//shopware.ttf?201806041019') format('truetype'),url('../../themes/Frontend/Responsive/frontend/_public/src/fonts//shopware.svg?201806041019') format('svg');
+    src: url('../../themes/Frontend/Responsive/frontend/_public/src/fonts//shopware.eot?#201806041019') format('embedded-opentype'),url('../../themes/Frontend/Responsive/frontend/_public/src/fonts//shopware.woff?201806041019') format('woff'),url('../../themes/Frontend/Responsive/frontend/_public/src/fonts//shopware.ttf?201806041019') format('truetype'),url('../../themes/Frontend/Responsive/frontend/_public/src/fonts//shopware.svg?201806041019') format('svg');
     font-weight: normal;
     font-style: normal
 }
@@ -25322,7 +25322,7 @@ body>.sidebar-main:after {
 }
 
 .flag-icon-ES:before {
-    background: url('../assets/img/ES.png') no-repeat -1px -6px;
+    background: url('../../.modman/shop-chooser-widget/SeventhSenseShopChooser/Views/frontend/_public/src/img/icons/ES.png') no-repeat -1px -6px;
     background-size: 32px,32px
 }
 
@@ -25337,7 +25337,7 @@ body>.sidebar-main:after {
 }
 
 .flag-icon-GB:before {
-    background: url('../../.modman/shop-chooser-widget/SeventhSenseShopChooser/Views/frontend/_public/src/img/icons/GB.png') no-repeat -1px -6px;
+    background: url('../assets/img/GB.png') no-repeat -1px -6px;
     background-size: 32px,32px
 }
 
@@ -37762,7 +37762,7 @@ a {
 }
 
 a:hover {
-   
+    color: #ff8350
 }
 
 .js--modal .modal--close {
